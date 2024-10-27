@@ -1,8 +1,12 @@
 import time
 from turtle import Turtle, Screen
 from snake import Snake
+from food import Food
+
 
 snake = Snake()
+food = Food()
+
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
