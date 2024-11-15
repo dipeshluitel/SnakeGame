@@ -23,15 +23,17 @@ screen.onkey(snake.right, "Right")
 
 game_on = True
 points = 0
+speed = 0.1
 score.display_score(points)
 while game_on:
     screen.update()
-    time.sleep(0.1)
+    time.sleep(speed)
     snake.move()
 
     # Detect the food Collision
     if snake.head.distance(food) < 20:
         points = points+1
+        speed = speed - 0.007
         food.new_coordinate()
         snake.extend()
         score.display_score(points)
