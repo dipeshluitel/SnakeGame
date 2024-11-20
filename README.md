@@ -1,7 +1,8 @@
 # Snake Game 🐍
 
 A classic Snake game built using Python and the Turtle graphics library. Control the snake to eat food, grow longer, and avoid collisions with walls or itself. This project showcases concepts of object-oriented programming, class inheritance, and basic game logic, making it ideal for learning or simply enjoying a nostalgic game.
-
+## Demo
+![Gameplay](image/snake.gif)
 ## Features
 - **Snake Movement:** Control the snake using arrow keys.
 - **Food Generation:** Randomly generated food appears for the snake to eat.
